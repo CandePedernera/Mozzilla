@@ -1,3 +1,12 @@
+let miImage = document.querySelector('img');
+miImage.onclick = function () {
+    let miSrc = miImage.getAttribute('src');
+    if (miSrc === 'img/MOZI.png') {
+      miImage.setAttribute('src','img/firefox2.png');
+    } else {
+      miImage.setAttribute('src', 'img/MOZI.png');
+    }
+}
 let miBoton = document.querySelector('button');
 let miTitulo = document.querySelector( 'h1');
 
